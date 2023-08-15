@@ -1,0 +1,527 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+/*nav bar*/
+*{
+    list-style: none;  
+    text-decoration: none;   
+}
+   nav ul {
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    margin-right: 100px;
+   
+    }
+    nav  :hover {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+    }
+  
+  li  {
+    display: inline-block;
+    padding: 8px;
+    background: transparent;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav a{
+    color: rgb(250, 250, 250);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  label.logo{
+    padding:  0 75px;
+    margin-top: 30px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+ /* section*/
+
+ section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  }
+ #sec-1{
+  min-height: 150vh;
+  background-image: url("images/5258552.jpg");
+  align-items: center;
+  justify-content:center;
+  background-size: cover;
+ }
+  #HEADING{
+   font-family:'Poppins', sans-serif;
+   color: aliceblue;
+   font-size: 50px;
+   text-align: center;
+  }
+  #info{
+    font-family:'Poppins', sans-serif ;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+  }
+  #resume{
+    border-radius: 100px ;
+    background-color: #ffffff;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Poppins', sans-serif;
+    height: 60px;
+    width: 300px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    margin:10% 0 0 500px;
+  }
+  #resume:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .box{
+    background-color: rgba(0, 0, 0, 0.15);  
+    backdrop-filter: blur(10px);
+    height: 350px;
+    width: 1200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   
+  
+
+   /*section 2*/
+   #sec-2{
+    background: url("images/18.jpg");
+    background-size: cover;
+    min-height: 130vh;
+   }
+   #sec2Heading{
+    font-size: 30px;
+    padding: 20px;
+    text-decoration:underline;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 60px;
+   }
+  #about{
+    width: 800px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  
+ #contact{
+  border-radius: 30px ;
+  background:black;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Poppins', sans-serif;
+  height: 50px;
+  width: 150px;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  margin:5% 0 0 100px;
+  font-weight: 600;
+ }
+ #contact:hover{
+  background-color: white;
+  color:black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#follow{
+  border-radius: 30px ;
+  background:transparent;
+  color: black;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Poppins', sans-serif;
+  height: 50px;
+  width: 150px;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  margin:5% 0 0 30px;
+  font-weight: 700;
+
+}
+#follow:hover{
+  background: white;
+  color:black;
+}
+
+/*section-3*/
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color:B9F3FC ;
+}
+
+.card {
+
+  margin-left: 100px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 100px;
+  margin-top: 50px;
+  width: 200px;
+  height: 150px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+  
+ 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 22px;
+}
+.box1{
+  background-color: rgba(0, 0, 0, 0.15);  
+  border-radius: 50px;
+  height: 650px;
+  width: 1500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ @media (max-width: 700px) {
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 1em auto;
+  }
+
+  #language{
+   
+    font-size: 30px;
+  }
+}
+
+
+/*section 4*/
+.languagesk{
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  background: url("images/06.jpg");
+}
+
+ #language{
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 5%;
+  font-size: 30px;
+  color: #000000;
+ }
+ 
+
+/*section 4*/
+
+#sec-4{
+  background: url("images/7813390.jpg");
+  background-size: cover;
+  min-height: 130vh;
+  justify-content: center;
+  align-items: center;
+ }
+ input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ffffff;
+  color: rgb(4, 4, 4);
+  padding: 14px 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 15px 0;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+
+
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+  color:#ffffff
+}
+#form{
+  color: rgb(0, 0, 0);
+ font-family: 'Poppins', sans-serif; 
+ font-weight: 700;
+ font-size: 30px;
+ padding: 30px 30px 30px 30px;
+}
+
+ 
+  /*responsive*/
+
+  @media only screen and (max-width: 1000px) {
+    #sec-1{
+    background: url("images/5258552\ \(1\).jpg");
+    background-size: cover;
+    }
+    #signup{
+      font-size: 20px;
+      height: 70px;
+      width: 100px;
+      border:20px;
+    }
+    #resume{
+    margin-left: 20%;
+    }
+    #info{
+      text-align: left;
+      padding: 10px;}
+    #HEADING{
+     text-align: left;
+     padding: 10px;
+      }
+      .box{
+        height: 410px;
+        padding: 20px;
+        margin: 10px 10px 10px 10px;
+        backdrop-filter: blur(5px);
+      }
+      /*sector2*/
+      #sec-2{
+        background: url("images/18{1}.jpg");
+        background-size: cover;
+      }
+      #about{
+        width: 400px;
+        font-weight: 600px;
+        backdrop-filter: blur(3px);
+      }
+      #imagesec2{
+        margin: 50px 50px 0 20px ;
+      }
+      #contact{
+        font-size: 15px;
+        height: 50px;
+        width: 130px;
+        border-width: 2px;
+        border-color: rgb(0, 0, 0);
+        margin:5% 0 0 20px;
+        font-weight: 600;
+      }
+      /* section 3*/
+      #sec-4{
+        background: url("images/7813390{1}.jpg");
+        background-size: cover;
+        min-height: 130vh;
+        justify-content: center;
+        align-items: center;
+  }
+  #form{
+    color: #000000;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 500;
+    backdrop-filter: blur(4px);
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    width: 90px;
+    height: 120px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 30px;
+  }
+  
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+}
+
+/* footer*/
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+footer p, footer nav {
+  margin: 0;
+}
+
+footer nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  footer p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
